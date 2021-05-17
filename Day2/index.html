@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>
+      <strong><u>Registration For covaxin</u></strong>
+    </h2>
+    <div class="registration">
+      <div class="register">
+        <form class="reg_form">
+          <label for="name">1: Name: </label>
+          <input type="text" id="name" name="name" /><br />
+
+          <label for="email">2: E-mail:</label>
+          <input type="email" name="email" id="email" /><br />
+
+          <label for="phone">3: Phone:</label>
+          <input type="number" name="phone" id="phone" /><br />
+
+          <label>4: Please select your gender:</label><br />
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other" />
+          <label for="other">Other</label><br />
+
+          <label for="pincode">5: Pincode:</label>
+          <input type="number" name="pincode" id="pincode" /><br />
+
+          <label for="address">6: Address:</label><br />
+          <textarea name="address" rows="4" cols="30"></textarea><br />
+
+          <label for="password">7: Password:</label>
+          <input type="password" id="password" name="password" /><br />
+
+          <label for="cpassword">8: Confirm Password:</label>
+          <input type="password" id="cpassword" name="cpassword" /><br />
+
+          <input type="checkbox" id="agree" name="agree" value="agree" />
+          <label for="agree"> I agree all the terms and conditions.</label
+          ><br />
+
+          <button type="submit" value="Submit">Register</button><br />
+          <br />
+          <h3>
+            If you have already registered, then please
+            <a href="./login.html">Log-in.</a>
+          </h3>
+          <br />
+          <br />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+h2 {
+  font-size: 45px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+.reg_form {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  margin-left: 20%;
+}
+
+input {
+  margin: 10px;
+  height: 25px;
+  border-radius: 8px;
+  border: 1px solid rgb(90, 87, 87);
+}
+
+button {
+  font-size: 20px;
+  background-color: azure;
+  border-radius: 20px;
+  margin: 20px;
+  width: 180px;
+}
