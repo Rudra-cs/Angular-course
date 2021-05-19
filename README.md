@@ -3,7 +3,7 @@
 ### Day 1 (15/05/2021) :
 
 - Learnt about Domain Name Server(DNS), World Wide Web(www), IP adress, How a server works?, What is a Server?
-- Basics of MEAN Stack, What does MEAN stands for?, What technologies are used in that stack
+- Basics of MEAN Stack, What does MEAN stands for?, What technologies are used in that stack?
 - What is an URL?, How does it work?
 - Learnt about basic HTML tags like h1,h2,h3 also about lists ol(ordered lists) ul(unordered lists)
 - Completed the Assignment which was to built a webpage for your own profile
@@ -16,3 +16,16 @@
 - HTML forms, input, label, radiobuttons, checkboxes, select, options, textarea
 - &nbsp for giving space in the input tag
 - Completed the assignment which was to create 2 webpages i.e. registration and login
+
+### Day 3 (18/05/2021) :
+
+- More about CSS external styling, external fonts from website like Google Fonts, favicons
+- HTML div properties like float, clear
+- CSS Media Queries
+- CSS Framework Bootstrap introduction, container, breakpoints, row, col
+- Bootstrap Components like Forms, Navbar
+- Completed the assignment which was to make registration and login form using Bootstrap Framework.
+
+### Day 4 (19/05/2021) :
+
+-

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*,
+body {
+  background-color: #152733;
+}
+
+.container {
+  border: 3px solid #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  font-size: 15px;
+}
+
+h2 {
+  color: aliceblue;
+}
+.form-content {
+  border-radius: 16px;
+  color: aliceblue;
+  background-color: #152733;
+}
+
+.custom {
+  background-color: #152733;
+  border-radius: 16px;
+  margin-top: 40px;
+}
+
+.cust {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.inp {
+  margin-left: 20px;
+}
+
+/* For disabling the spinner */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
