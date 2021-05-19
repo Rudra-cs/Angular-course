@@ -26,6 +26,12 @@
 - Bootstrap Components like Forms, Navbar
 - Completed the assignment which was to make registration and login form using Bootstrap Framework.
 
+<img src="Images/Register.png" width="800" height="400">
+
 ### Day 4 (19/05/2021) :
 
--
+- Javascript Basics , console.log(), alert(), ES6 Scripts
+- Difference between var, let, const
+- typeof keyword, scope, prompt
+- Conditional Functions, NaN, Number
+- Completed the assignment which was to write simple programs in Javascript
