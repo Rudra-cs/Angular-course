@@ -35,3 +35,11 @@
 - typeof keyword, scope, prompt
 - Conditional Functions, NaN, Number
 - Completed the assignment which was to write simple programs in Javascript
+
+### Day 5 (20/05/2021) :
+
+- Functions, Anonymous Function, Arrow Function
+- setTimeout(), Async Programming, Arrays
+- push(), pop(), shift(), unshift(), splice(), forEach(), filter(), map() functions with examples
+- Objects, Object Literal, object destructuring,, this keyword
+- Completed the assignment which was to write a program for perfect no. using arrow function
