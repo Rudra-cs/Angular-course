@@ -10,7 +10,7 @@ Cpatain America and Others’ */
 
 let arr = [];
 
-function check() {
+let check = () => {
   if (arr.length > 3) {
     console.log(arr[0] + ", " + arr[1] + " and Others");
   } else if (arr.length === 3) {
@@ -19,7 +19,7 @@ function check() {
     console.log(arr[0] + " and " + arr[1]);
   } else if (arr.length === 1) console.log(arr[0]);
   else console.log("Nothing available to Print");
-}
+};
 
 check(); //empty array
 

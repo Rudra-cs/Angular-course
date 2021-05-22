@@ -43,3 +43,9 @@
 - push(), pop(), shift(), unshift(), splice(), forEach(), filter(), map() functions with examples
 - Objects, Object Literal, object destructuring,, this keyword
 - Completed the assignment which was to write a program for perfect no. using arrow function
+
+### Day 6 (21/05/2021) :
+
+- camelCase convention, Class, Constructor, set, get
+- DOM (Document Object Model), innerHTML, innerText, document.getElementById(), document.getElementByClassName(), querySelector, querySelectorAll
+- Events, onclick(), appendChild(), addEventListener(), event.preventDefault(), d-none, classList
