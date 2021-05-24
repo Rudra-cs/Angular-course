@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.cen {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+body {
+  background-image: linear-gradient(120deg, #dbbc55, #eba895);
+}
+form {
+  background-color: lightgrey;
+  padding: 1rem;
+}
+
+h2 {
+  font-family: Pattaya, Arial, Helvetica, sans-serif;
+}
+
+.fs {
+  background-color: lightgrey;
+}
+
+.show {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.expense {
+  align-items: center;
+  margin: 0.5rem;
+  background: lightgrey;
+  color: black;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  transition: all 1s ease;
+}
+.expense-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.expense li {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  flex: 1;
+}
+.delete-btn {
+  background: #e9a08b;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.delete-btn:hover {
+  background: #e27050;
+}
+
+.expense-item {
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash {
+  pointer-events: none;
+}
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}

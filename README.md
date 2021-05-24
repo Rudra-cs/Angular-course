@@ -49,3 +49,11 @@
 - camelCase convention, Class, Constructor, set, get
 - DOM (Document Object Model), innerHTML, innerText, document.getElementById(), document.getElementByClassName(), querySelector, querySelectorAll
 - Events, onclick(), appendChild(), addEventListener(), event.preventDefault(), d-none, classList
+- Completed the Assignment based on Class, Objects and Events
+
+### Day 7 (22-05-2021) :
+
+- Recap of Objects, Class and Js Concepts, Validation
+- Regex, Patterns
+- In vscode shift + alt + down arrow to copy the above line
+- Completed the assignment which was to make a expense tracker webpage TODO: Add LocalStorage
