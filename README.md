@@ -57,3 +57,11 @@
 - Regex, Patterns
 - In vscode shift + alt + down arrow to copy the above line
 - Completed the assignment which was to make a expense tracker webpage TODO: Add LocalStorage
+
+### Day 8 (24-05-2021) :
+
+- Blocking and Non-Blocking I/O, Introduction to Node.js, What is Node.js?, Concurrency
+- Module, Node Modules, import modules, Bulit-in Modules
+- Fs Module, Path, https, crypto
+- npm, third party module, prompt-sync
+- No Assignment for today
