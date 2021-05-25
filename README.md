@@ -65,3 +65,9 @@
 - Fs Module, Path, https, crypto
 - npm, third party module, prompt-sync
 - No Assignment for today
+
+### Day 9 (25-05-2021) :
+
+- Recap on Noje.js basics, creating a http server, sending and getting res and req
+- Build, Start, package.json, npm start, npm run build, nodemon
+- buffer, server, json, http module, req, res, pipe
