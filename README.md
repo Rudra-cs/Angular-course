@@ -71,3 +71,18 @@
 - Recap on Noje.js basics, creating a http server, sending and getting res and req
 - Build, Start, package.json, npm start, npm run build, nodemon
 - buffer, server, json, http module, req, res, pipe
+- Completed the Assignment which was based on fs module
+
+#### Node modules Setup
+
+```shell
+npm init
+npm install prompt-sync
+```
+
+#### Require the modules
+
+```sh
+const fs = require("fs");
+const prompt = require("prompt-sync")();
+```
