@@ -9,8 +9,8 @@ const inputCounter = prompt("Enter how many data to be inputed? ");
 // Show Data
 const employees = fs.readFileSync("./employee.json");
 const showData = JSON.parse(employees);
-console.log("ALL Data :-");
-console.log(showData);
+// console.log("ALL Data :-");
+// console.log(showData);
 
 // Looping
 for (let i = 0; i < inputCounter; i++) {
@@ -36,9 +36,10 @@ for (let i = 0; i < inputCounter; i++) {
 const empData = fs.writeFileSync("./employee.json", JSON.stringify(showData));
 
 // Search Implementation
-const Search = prompt("Enter the employee id tu search: ");
+const Search = prompt("Enter the employee name to be search: ");
 const searchData = showData.filter(function (emp) {
-  return emp.id == Search;
+  return emp.name == Search;
 });
-console.log("Search data");
-console.log(searchData);
+console.log("Search data Result:");
+if (searchData.length == 0) console.log("No Data Found");
+else console.log(searchData);

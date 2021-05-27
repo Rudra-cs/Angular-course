@@ -73,7 +73,7 @@
 - buffer, server, json, http module, req, res, pipe
 - Completed the Assignment which was based on fs module
 
-#### Node modules Setup
+#### Node modules Setup and external module
 
 ```shell
 npm init
@@ -85,4 +85,38 @@ npm install prompt-sync
 ```sh
 const fs = require("fs");
 const prompt = require("prompt-sync")();
+```
+
+### Day 10 (27-05-2021) :
+
+- POST req, GET req, Difference between an library and Framework
+- Introduction to Express.js, REST API
+- Postman, Middleware, Routes
+- CRUD operations
+
+#### Installing Express
+
+```shell
+npm install express
+```
+
+#### Require the Express.js
+
+```sh
+const express = require("express");
+const app = express();
+```
+
+#### Express Routing
+
+```sh
+// GET method route
+app.get('/', function (req, res) {
+  res.send('GET request to the homepage')
+})
+
+// POST method route
+app.post('/', function (req, res) {
+  res.send('POST request to the homepage')
+})
 ```
