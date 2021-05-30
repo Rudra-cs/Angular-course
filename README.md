@@ -120,3 +120,30 @@ app.post('/', function (req, res) {
   res.send('POST request to the homepage')
 })
 ```
+
+### Day 11 (28-05-2021) :
+
+- Continuation of CRUD Operations
+- Introduction to MongoDB (Non-Relational DB)
+- MongoDb Atlas setup, Moongoose
+- Completed the assignment which was to make an api for CRUD operations for player's data
+
+#### Install Mongoose
+
+```sh
+  npm install mongoose
+```
+
+#### Require Mongoose
+
+```sh
+  const mongoose = require("mongoose");
+```
+
+### Day 12 (29-05-2021) :
+
+- Async, Await and Promises
+- Folder Structure During A Project (Routes, Controllers, Models)
+- Middleware, Express Router
+- Creating Blog api using mongoose and mongo db atlas, Schema
+- CRUD Operations using Mongoose
