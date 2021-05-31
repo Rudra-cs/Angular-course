@@ -110,12 +110,12 @@ const app = express();
 #### Express Routing
 
 ```sh
-// GET method route
+#  GET method route
 app.get('/', function (req, res) {
   res.send('GET request to the homepage')
 })
 
-// POST method route
+#  POST method route
 app.post('/', function (req, res) {
   res.send('POST request to the homepage')
 })
@@ -147,3 +147,37 @@ app.post('/', function (req, res) {
 - Middleware, Express Router
 - Creating Blog api using mongoose and mongo db atlas, Schema
 - CRUD Operations using Mongoose
+
+### Day 13 (31-05-2021) :
+
+- Introduction to Typescript
+- Basic Types (Numbers, Strings, Boolean)
+- Union types, Type Inference
+- Introduction to Angular.js
+
+#### Example of TS types
+
+```sh
+# Basic Types
+let x:number = 20;
+const arr:number[] = [1,2,3,4]
+
+# Union Types
+let semester: number || string;
+
+# Declaring own type
+type user ={age:number, name:string}
+
+let user:user = {
+  age=20,
+  name="Rudra"
+}
+
+# Generics
+function insertIntoArr<T>(arr:T[],value:T){
+  const newArray = [value, ...arr]; #rest operator
+  return newArray;
+}
+const modifiedArray = [[2,3,4],2]
+const modifiedArr = [["Rudra","Sam"],"John"]
+```

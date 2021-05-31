@@ -1,1 +1,16 @@
-[{"plid":1,"plname":"Rahul","plcountry":"India","plplayed":10,"plachievement":12}]
+[
+  {
+    "plid": 1,
+    "plname": "Rahul",
+    "plcountry": "India",
+    "plplayed": 10,
+    "plachievement": 12
+  },
+  {
+    "plid": 3,
+    "plname": "john",
+    "plcountry": "America",
+    "plplayed": 15,
+    "plachievement": 5
+  }
+]
